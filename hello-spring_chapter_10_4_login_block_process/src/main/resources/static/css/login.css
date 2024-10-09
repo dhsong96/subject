@@ -1,0 +1,36 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 120px 250px;
+  grid-template-rows: 28px 28px 1fr;
+  row-gap: 10px;
+  margin-top: 10px;
+}
+.error {
+	color: #a00;
+}
+label {
+	padding-left : 10px;
+}
+input {
+	padding : 10px;
+	border : 1px solid #ccc;
+}
+div.errors {
+	background-color: #ff00004a;
+	opacity: 0.8;
+	padding: 10px;
+	color: #333;
+	width: 18%
+}
+div.error:last-child {
+	margin-bottom: 15px;
+}
+div.grid > div.right-align {
+	text-align: right;
+}
+

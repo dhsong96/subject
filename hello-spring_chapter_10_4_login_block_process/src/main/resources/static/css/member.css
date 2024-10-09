@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 10rem 30rem;
+  grid-template-rows: minmax(30px auto) minmax(30px auto) minmax(30px auto) minmax(30px auto);
+  row-gap: 15px;
+}
+
+.available {
+	background-color: #0f08;
+}
+
+.unusable{
+	background-color: #f008;
+}
+.error {
+	color: #a00;
+}
